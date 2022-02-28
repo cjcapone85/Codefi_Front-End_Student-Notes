@@ -19,3 +19,4 @@ function updateColors() {
   headingOne.style.color = "#f0f9ff";
   headingTwo.style.color = "#7dd3fc";
 }
+

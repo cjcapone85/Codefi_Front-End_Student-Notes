@@ -1,11 +1,26 @@
+h1{
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(16, 1, 71);
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight:bolder
+}
+
 .container {
   text-align: center;
   margin-top: 64px;
 }
 
 .btn-primary {
+  background-color:black;
+  color:rgb(250, 247, 246);
   padding: 16px 28px;
   font-size: 1.5rem;
   border-radius: 16px;
-  cursor: pointer;
+  cursor: crosshair;
+  box-shadow: 2px;
 }
+

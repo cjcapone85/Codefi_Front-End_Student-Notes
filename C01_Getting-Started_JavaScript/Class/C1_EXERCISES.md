@@ -10,7 +10,6 @@
 - [ ] Write the logic to select a heading and change its color
 
 ---
-
 ---
 
 ## Exercise #2: Advanced
