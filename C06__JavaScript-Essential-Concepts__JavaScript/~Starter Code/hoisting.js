@@ -8,7 +8,7 @@ function chefckIfHoisted() {
 
     checkHoisted ();
 
-    SVGComponentTransferFunctionElement.log("someVar")
+    console.log
 }
 // ~ DEMO 1 END ~ \\
 
