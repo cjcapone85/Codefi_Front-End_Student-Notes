@@ -1,6 +1,6 @@
 // * ============ SPREAD vs REST ============ * \\
 // ~~~~~~~ REST OPERATOR ~~~~~~~ \\
-console.groupCollapsed("Rest Operator");
+//console.groupCollapsed("Rest Operator");
 
 function sumOf(...args) {
   console.log("args:", args);
@@ -15,13 +15,13 @@ function sumOf(...args) {
 const testCalculation = sumOf(1, 2, 5, 8);
 
 console.log("testCalculation:", testCalculation);
-console.groupEnd();
+//console.groupEnd();
 
 // ~~~~~~~ SPREAD OPERATOR ~~~~~~~ \\
-const ninthGraders = ["Jennifer", "Berry", "Ashley", "Bernard"];
-const tenthGraders = ["Jason", "Amy", "Samuel", "Cook"];
-const completeListOfStudents = [...ninthGraders, ...tenthGraders];
+// const ninthGraders = ["Jennifer", "Berry", "Ashley", "Bernard"];
+// const tenthGraders = ["Jason", "Amy", "Samuel", "Cook"];
+// const completeListOfStudents = [...ninthGraders, ...tenthGraders];
 
-console.groupCollapsed("Spread Operator");
-console.log("completeListOfStudents:", completeListOfStudents);
-console.groupEnd();
+// console.groupCollapsed("Spread Operator");
+// console.log("completeListOfStudents:", completeListOfStudents);
+// console.groupEnd();

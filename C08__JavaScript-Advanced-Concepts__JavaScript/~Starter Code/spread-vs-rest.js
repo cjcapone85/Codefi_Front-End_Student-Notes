@@ -1,11 +1,12 @@
 // * ============ SPREAD vs REST ============ * \\
 // ~~~~~~~ REST OPERATOR ~~~~~~~ \\
-console.groupCollapsed("Rest Operator");
+// function getSum(...args){
+//     let sum= 0;
 
-console.groupEnd();
-
+// }
 // ~~~~~~~ SPREAD OPERATOR ~~~~~~~ \\
 
-console.groupCollapsed("Spread Operator");
+const ninthGraders= ["Jennifer", "Berry", "Ashley", "Bernard"];
+const tenthGraders= ["Jason", "Amy", "Samuel", "Cook"];
 
-console.groupEnd();
+console.log(...tenthGraders);

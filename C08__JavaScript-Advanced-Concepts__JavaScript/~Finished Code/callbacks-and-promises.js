@@ -1,31 +1,31 @@
-// * ============ CALLBACKS & PROMISES ============ * \\
-// ~~~~~ SYNCHRONOUS CODING ~~~~~ \\
-function goToSchool() {
-  console.log("THE BUS! Welp, I missed the bus!");
-}
-function code() {
-  console.log("Coded all day successfully!");
-}
+// // * ============ CALLBACKS & PROMISES ============ * \\
+// // ~~~~~ SYNCHRONOUS CODING ~~~~~ \\
+// function goToSchool() {
+//   console.log("THE BUS! Welp, I missed the bus!");
+// }
+// function code() {
+//   console.log("Coded all day successfully!");
+// }
 
-// Usage:
-console.groupCollapsed("Synchronous Coding");
-goToSchool();
-code();
-console.groupEnd();
+// // Usage:
+// console.groupCollapsed("Synchronous Coding");
+// goToSchool();
+// code();
+// console.groupEnd();
 
-// ~~~~~ CALLBACKS ~~~~~ \\
-function growCorn() {
-  setTimeout(() => {
-    console.log("Corn Success");
-  }, 3000);
-}
-function PickApple() {
-  console.log("Apple Success");
-}
+// // ~~~~~ CALLBACKS ~~~~~ \\
+// function growCorn() {
+//   setTimeout(() => {
+//     console.log("Corn Success");
+//   }, 3000);
+// }
+// function PickApple() {
+//   console.log("Apple Success");
+// }
 
-// Usage:
-// growCorn();
-// PickApple();
+// // Usage:
+// // growCorn();
+// // PickApple();
 
 // ~~~~~ PROMISES ~~~~~ \\
 const someAPIRequest = {
