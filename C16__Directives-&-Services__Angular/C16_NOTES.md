@@ -537,7 +537,7 @@ saveBook(book: Book) {
 }
 
 removeBook(idx: number) {
-    if (idx !=== -1) {
+    if (idx !== -1) {
         // We have a book at that index
         this.myBooks.splice(idx, 1)
         this.bookListChanged.emit(this.myBooks.slice());
